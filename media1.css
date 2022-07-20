@@ -1,0 +1,82 @@
+@media screen and (min-width:520px)  {
+    /* responsive-1 */
+    .search {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      } 
+      .inputtype {
+        height: 50px;
+        width: 430px;
+        font-size: 15px;
+        font-weight: unset;
+        border: 1px solid white;
+        border-radius: 0px;
+        padding-left: 2ppx;
+      }
+      .submit {
+        height: 40px;
+        width: 150px;
+        border: 1px solid white;
+        border-radius: 0px;
+        background-color: #e50914;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        cursor: pointer;  
+      }
+      .text1 {
+        color: white;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+      }
+      .text2 {
+        color: white;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+      }
+      .text3 {
+        text-align: center; color: white; font-size: 16px;
+      }
+      .selectlogo{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1px;
+      border: 1px solid white;
+      height: 33px;
+      width: 122px;
+    }
+      
+      
+
+
+      
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

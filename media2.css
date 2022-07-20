@@ -1,0 +1,112 @@
+/* responsive-2 */
+/* head part responsive */
+@media screen and (min-width: 300px) and (max-width: 519px) {
+  .container {
+    height: 40px;
+    width: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92.5%;
+  }
+  .navbar__options {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .logo {
+    height: 60px;
+  }
+  .dropdown {
+    height: 27px;
+    border-radius: 1px;
+    background: transparent;
+    color: white;
+    opacity: 0.9;
+    width: 70px;
+    padding-left: 0px;
+    font-size: small;
+  }
+
+  .button {
+    height: 29px;
+    width: 67px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 3px;
+    border: #e50914;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* main part responsive */
+
+  .main {
+    height: 100vh;
+    width: auto;
+  }
+  .text1 {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  .text2 {
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  .text {
+    height: 330px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text3 {
+    text-align: center; color: white; font-size: 15px;
+  }
+  .search {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .inputtype {
+    height: 40px;
+    width: 266px;
+    font-size: 15px;
+    font-weight: unset;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding-left: 2px;
+  }
+  .submit {
+    height: 32px;
+    width: 90px;
+    border: 1px solid white;
+    border-radius: 0px;
+    background-color: #e50914;
+    color: white;
+    font-size: small;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+}
